@@ -1,17 +1,21 @@
 # Product Management System
 
 ## Project Description
-A role-based Product Management System built using Spring Boot, MySQL, Thymeleaf, and Bootstrap. This application allows admins to manage products with CRUD operations, image upload functionality, search features, and secure login authentication.
+A role-based Product Management System built using Spring Boot, MySQL, Thymeleaf, and Bootstrap.
 
-## Features
-- Add Product
-- Update Product
-- Delete Product
-- View All Products
-- Search Product
+### Admin Features
+- Add Products
+- Update Products
+- Delete Products
 - Upload Product Images
-- Admin Login Authentication
-- REST API Integration
+- Manage Product Details
+
+### Customer Features
+- View Products
+- Search Products
+- Cannot Add Products
+- Cannot Update Products
+- Cannot Delete Products
 
 ## Tech Stack
 - Java
@@ -25,12 +29,13 @@ A role-based Product Management System built using Spring Boot, MySQL, Thymeleaf
 - JavaScript
 
 ## Project Highlights
-- Role-based authentication
-- Image upload support
+- Role-based login authentication
 - CRUD operations
+- Image upload support
 - Search functionality
 - REST API backend
-- Responsive UI
+- Secure admin access
+- Customer restricted access
 
 ## Author
 Raj Sekhar
